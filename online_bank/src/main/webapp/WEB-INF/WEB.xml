@@ -1,0 +1,100 @@
+<!DOCTYPE web-app PUBLIC 
+    "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" 
+    "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <display-name>Banking Application</display-name>
+    
+    <!-- Servlet Definitions -->
+    <servlet>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <servlet-class>com.bank.AdminLoginServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>CheckBalanceServlet</servlet-name>
+        <servlet-class>com.bank.CheckBalanceServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>CustomerLoginServlet</servlet-name>
+        <servlet-class>com.bank.CustomerLoginServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>DeleteAccountServlet</servlet-name>
+        <servlet-class>com.bank.DeleteAccountServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>DepositServlet</servlet-name>
+        <servlet-class>com.bank.DepositServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.bank.LogoutServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>RegisterCustomerServlet</servlet-name>
+        <servlet-class>com.bank.RegisterCustomerServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>TransactionHistoryServlet</servlet-name>
+        <servlet-class>com.bank.TransactionHistoryServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>WithdrawServlet</servlet-name>
+        <servlet-class>com.bank.WithdrawServlet</servlet-class>
+    </servlet>
+    
+    <!-- Servlet Mappings -->
+    <servlet-mapping>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <url-pattern>/AdminLoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>CheckBalanceServlet</servlet-name>
+        <url-pattern>/CheckBalanceServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>CustomerLoginServlet</servlet-name>
+        <url-pattern>/CustomerLoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>DeleteAccountServlet</servlet-name>
+        <url-pattern>/DeleteAccountServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>DepositServlet</servlet-name>
+        <url-pattern>/DepositServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>RegisterCustomerServlet</servlet-name>
+        <url-pattern>/RegisterCustomerServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>TransactionHistoryServlet</servlet-name>
+        <url-pattern>/TransactionHistoryServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>WithdrawServlet</servlet-name>
+        <url-pattern>/WithdrawServlet</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
